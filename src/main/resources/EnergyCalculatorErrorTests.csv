@@ -1,0 +1,4 @@
+TestCase,kwh,hasSmartDevice,peakOptOut,ExpectedError
+1.1,-10,FALSE,FALSE,java.lang.IllegalArgumentException
+2.1,-10000000000,FALSE,FALSE,java.lang.IllegalArgumentException
+2.2,0,FALSE,FALSE,java.lang.IllegalArgumentException
